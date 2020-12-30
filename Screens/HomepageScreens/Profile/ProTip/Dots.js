@@ -24,7 +24,7 @@ const Dots = ({ index, currentIndex }) => {
         margin: 4,
       }}
     />
-  )
-}
+  );
+};
 
 export default Dots

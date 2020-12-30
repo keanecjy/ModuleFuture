@@ -2,9 +2,9 @@ import React from "react";
 import { View } from "react-native";
 import BlocksPerRow from "./BlocksPerRow";
 
-const MakingTheBlocks = ({ arrayToMake }) => {
+const ModuleWorkloadInformation = ({ arrayToMake }) => {
   let variableLength = arrayToMake.length;
-  const arraymaker = (val) => {
+  const arrayMaker = (val) => {
     let arr = [];
     let pos = 0;
     for (let i = 0; i < val; i++) {
@@ -22,7 +22,7 @@ const MakingTheBlocks = ({ arrayToMake }) => {
     }
     return arr;
   };
-  const numbersOfRow = arraymaker(Math.ceil(arrayToMake.length / 10));
+  const numbersOfRow = arrayMaker(Math.ceil(arrayToMake.length / 10));
 
   return (
     <View style={{ flex: 1 }}>
@@ -33,4 +33,4 @@ const MakingTheBlocks = ({ arrayToMake }) => {
   );
 };
 
-export default MakingTheBlocks;
+export default ModuleWorkloadInformation;
