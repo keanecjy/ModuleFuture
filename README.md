@@ -2,7 +2,7 @@
 
 A module planning application that all NUS students must have!
 
-Level of achievement: Artemis
+Level of achievement: Artemis (Highest level)
 
 Promotional Video: https://www.youtube.com/watch?v=sqWDVRd5qqU
 
