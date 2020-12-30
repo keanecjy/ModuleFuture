@@ -15,3 +15,4 @@ firestore.indexes.json
 node_modules
 Data/ModuleInfo1.json
 Data/ModuleList1.json
+/.idea
